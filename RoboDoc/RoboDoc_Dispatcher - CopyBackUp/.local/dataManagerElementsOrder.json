@@ -1,0 +1,583 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "fileNameText&Sequence_28",
+        "pdfTitle&Sequence_28",
+        "allContractFolderPath&Sequence_28",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "docType&Sequence_28",
+        "currentItem&Sequence_28",
+        "configPath&Sequence_17",
+        "ScreenshotPath&Sequence_31"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/EmailReceive.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractPDFContract.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentItem&Sequence_1",
+        "valabilitateContract&Sequence_1",
+        "numarContract&Sequence_1",
+        "denumireSevicii&Sequence_1",
+        "cui&Sequence_1",
+        "pret&Sequence_1",
+        "parteContractanta&Sequence_1",
+        "denumireContract&Sequence_1",
+        "pdfText&Sequence_1",
+        "pdfPathContract&Sequence_1",
+        "contractText&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_contractText",
+        "_currentItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ReadPDFInvoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "_currentItem",
+        "_invoiceText"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractPDFInvoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentItem&Sequence_1",
+        "dueDate&Sequence_1",
+        "pdfPathInvoice&Sequence_1",
+        "pdfOutput&Sequence_1",
+        "invoiceNo&Sequence_1",
+        "serieNr&Sequence_1",
+        "invoiceDate1&Sequence_1",
+        "invoiceDate&Sequence_1",
+        "dataScadentei1&Sequence_1",
+        "dataScadentei&Sequence_1",
+        "cui1&Sequence_1",
+        "CUI&Sequence_1",
+        "denumire&Sequence_1",
+        "denumireSocietate&Sequence_1",
+        "invoiceNumber&Sequence_1",
+        "invoiceText&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_allContractFolderPath",
+        "_currentItem",
+        "_invoiceFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractInvoiceData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "allContractFolderPath&Sequence_2",
+        "invoiceFolderPath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_invoiceText",
+        "_invoiceNumber",
+        "_invoiceDate",
+        "_dueDate",
+        "_CUI",
+        "_designation"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/EmailReceiver.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "_allContractFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/InvoiceDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "allCOntractFolderPath&Sequence_1",
+        "RRContractFolderPath&Sequence_1",
+        "simpleContractFolderPath&Sequence_1",
+        "invoiceFolderPath&Sequence_1",
+        "dtString&Sequence_1",
+        "drRowInvoice&Sequence_1",
+        "dtInvoice&Sequence_1",
+        "dtFinaleInvoice&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_invoiceNumber",
+        "_CUI",
+        "_designation",
+        "_invoiceDate",
+        "_dueDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/GenerateDocumentFolder.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "folderExistRRContract&Sequence_1",
+        "folderExistSimpleContract&Sequence_1",
+        "folderExistInvoce&Sequence_1",
+        "folderExistAllContract&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_simpleContractFolderPath",
+        "_RRContractFolderPath",
+        "_allContractFolderPath",
+        "_invoiceFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractPDFContracteRR.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RRText&Sequence_1",
+        "currentItem&Sequence_1",
+        "contractText&Sequence_1",
+        "valoare&Sequence_1",
+        "cui&Sequence_1",
+        "dueDate&Sequence_1",
+        "denumireParte&Sequence_1",
+        "numarContract&Sequence_1",
+        "denumireContract&Sequence_1",
+        "contractRRText&Sequence_1",
+        "pdfText&Sequence_1",
+        "pdfContractRRPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ReadPDFContract.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentItem&Sequence_1",
+        "contractText&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_currentItem",
+        "_contractText"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractDataFromContract.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "documentType&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_contractText",
+        "_denumireContract",
+        "_parteContractanta",
+        "_pret",
+        "_CUI",
+        "_denumireServicii",
+        "_numarContract",
+        "_valabilitateContract"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ContractDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RRContractFolderPath&Sequence_1",
+        "simpleContractFolderPath&Sequence_1",
+        "_sinpleContractFolderPath&Sequence_1",
+        "invoiceFolderPath&Sequence_1",
+        "dtContracteSimple&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_parteContractanta",
+        "_pret",
+        "_CUI",
+        "_denumireServicii",
+        "_numarContract",
+        "_valabilitateContract",
+        "_denumireContract"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ReadPDFContracteRR.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "_RRText",
+        "_currentItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractContractRRData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "_contractRRtext",
+        "_denumireContract",
+        "_numarContract",
+        "_denumireParte",
+        "_dueDate",
+        "_CUI",
+        "_valoare"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ContracteRRDataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RRContractFolderPath&Sequence_1",
+        "simpleContraxctFolderPath&Sequence_1",
+        "invoiceFolderPath&Sequence_1",
+        "dtContracteRR&Sequence_1",
+        "drContracteRR&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_CUI",
+        "_denumireContract",
+        "_denumireParte",
+        "_dueDate",
+        "_numarContract",
+        "_valoare"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "files&Sequence_17",
+        "filesNameText&Sequence_1",
+        "contractText&Sequence_2",
+        "pdfTItle&Sequence_15",
+        "invoiceFolderPath&Sequence_1",
+        "allContractFolderPath&Sequence_1",
+        "RRContractFolderPath&Sequence_1",
+        "docType&Sequence_1",
+        "simpleContractFolderPath&Sequence_1",
+        "invoiceText&Sequence_7",
+        "invoiceNumber&Sequence_7",
+        "invoiceDate&Sequence_7",
+        "dueDate&Sequence_7",
+        "cui&Sequence_7",
+        "designation&Sequence_7",
+        "cui&Sequence_8",
+        "denumireContract&Sequence_8",
+        "denumireParte&Sequence_8",
+        "numarContract&Sequence_8",
+        "valoare&Sequence_8",
+        "dueDate&Sequence_8",
+        "currentItem&Sequence_9",
+        "invoiceDate&Sequence_4",
+        "designation&Sequence_4",
+        "cui&Sequence_4",
+        "dueDate&Sequence_4",
+        "invoiceNumber&Sequence_4",
+        "invoiceText&Sequence_4",
+        "dueDate&Sequence_5",
+        "valoare&Sequence_5",
+        "numarContract&Sequence_5",
+        "denumireParte&Sequence_5",
+        "denumireContract&Sequence_5",
+        "cui&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_filesNameText",
+        "_allContractFolderPath",
+        "_pdfTitle",
+        "in_TransactionItem",
+        "in_Config",
+        "_docType",
+        "_currentItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Misc/SendMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/TakeScreenshot.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Screenshot&Sequence_1",
+        "ScreenshotFileInfo&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Folder",
+        "io_FilePath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/IdentifyDocumentType.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pdfTitle&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_pdfTItle",
+        "_currentItem",
+        "_docType"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/MoveFolderFromDocumentIntoSpecify Folder.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Misc/AddInvoiceInQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Misc/AddSimpleContractinQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Misc/AddRRContractInQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ReadPDFInvoice.xamlInvokeWorkflowFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentItem&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "invoiceText"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractInvoiceData - Copy (1).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "_invoiceText",
+        "_invoiceNumber",
+        "_invoiceDate",
+        "_dueDate",
+        "_CUI",
+        "_designation"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/ExtractNameOfFilesFromDocumentFolder.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "allContractFolderPath&Sequence_2",
+        "simpleContractFolderPath&Sequence_2",
+        "invoiceFolderPath&Sequence_7",
+        "allContractFolderPath&Sequence_7",
+        "all&Sequence_7",
+        "docType&Sequence_2",
+        "invoiceText&Sequence_7",
+        "invoiceNumber&Sequence_7",
+        "invoiceDate&Sequence_7",
+        "dueDate&Sequence_7",
+        "cui&Sequence_7",
+        "designation&Sequence_7",
+        "cui&Sequence_8",
+        "denumireContract&Sequence_8",
+        "denumireParte&Sequence_8",
+        "numarContract&Sequence_8",
+        "valoare&Sequence_8",
+        "dueDate&Sequence_8",
+        "contractText&Sequence_9",
+        "filesName&Sequence_1",
+        "nameOfFile&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "argument1",
+        "_RRContractFolderPath",
+        "_docType",
+        "_allContractFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Apps/SwitchTypeDocument.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentItem&Sequence_1",
+        "simpleContractFolderPath&Sequence_1",
+        "RRContractFolderPath&Sequence_1",
+        "allContractFolderPath&Sequence_1",
+        "invoiceFolderPath&Sequence_1",
+        "invoiceText&Sequence_2",
+        "invoiceNumber&Sequence_2",
+        "invoiceDate&Sequence_2",
+        "dueDate&Sequence_2",
+        "cui&Sequence_2",
+        "designation&Sequence_2",
+        "cui&Sequence_3",
+        "denumireContract&Sequence_3",
+        "denumireParte&Sequence_3",
+        "numarContract&Sequence_3",
+        "valoare&Sequence_3",
+        "dueDate&Sequence_3",
+        "contractText&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_simpleContractFolderPath",
+        "_invoiceFolderPath",
+        "_allContractFolderPath",
+        "_docType"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pdfText&Sequence_1",
+        "candidates&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ReadCandidatesPDF.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "_pdfPath",
+        "_pdfText"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ExtractCandidates.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pdfRows&Sequence_1",
+        "index&Sequence_1",
+        "politicalParty&Sequence_2",
+        "candidates&Sequence_2",
+        "partyRow&Sequence_3",
+        "candidatesRow&Sequence_3",
+        "candidatesWords&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_pdfText",
+        "_candidates"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ClassifyPosters.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "posters&Sequence_1",
+        "postersFolderPath&Sequence_1",
+        "democratNames&Sequence_1",
+        "republicanNames&Sequence_1",
+        "libertarianNames&Sequence_1",
+        "posterText&Sequence_2",
+        "democratScore&Sequence_2",
+        "republicanScore&Sequence_2",
+        "libertarianScore&Sequence_2",
+        "posterName&Sequence_2",
+        "arrayScores&Sequence_2",
+        "image&Sequence_4",
+        "maxScore&Sequence_22",
+        "maxScoreCount&Sequence_22",
+        "maxScorePosition&Sequence_22",
+        "index&Sequence_22"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "_candidates"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
